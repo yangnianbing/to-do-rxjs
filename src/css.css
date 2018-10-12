@@ -22,7 +22,7 @@
 }
 
 .to-do-container ul.list li.row input{
-    width: calc(100% - 90px);
+    width: calc(100% - 120px);
 }
 
 .to-do-container ul.list li.row:hover input{
