@@ -1,0 +1,20 @@
+{
+  "name": "to-do-rxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "server":"parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@yangnb/jsutil_": "^1.0.0",
+    "hyperscript-helpers": "^3.0.3",
+    "rxjs": "^6.3.3",
+    "snabbdom": "^0.7.2"
+  },
+  "devDependencies": {
+    "parcel": "^1.10.2"
+  }
+}

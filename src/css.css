@@ -1,0 +1,60 @@
+.to-do-container .row input.content{
+    border: none;
+    margin-left: 10px;
+}
+
+.to-do-container .row input.content:focus{
+    border: none;
+    outline: none;
+}
+
+.to-do-container ul.list{
+    list-style: none;
+    padding: 0px;
+}
+
+.to-do-container ul.list li.row{
+    padding: 8px 15px;
+}
+
+.to-do-container ul.list li.row:hover{
+    background: rgba(0, 0, 0, .03)
+}
+
+.to-do-container ul.list li.row input{
+    width: calc(100% - 90px);
+}
+
+.to-do-container ul.list li.row:hover input{
+    background: rgba(0, 0, 0, 0);
+}
+
+.to-do-container .row .operator{
+    display: inline-block;
+    float: right;
+}
+
+.to-do-container .row .operator span.operator-btn{
+    margin-left: 10px;
+}
+
+.to-do-container  .header h2{
+    color: #666;
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 45px;
+    font-family: inherit;
+}
+
+.to-do-container  .header h2 .add{
+    float: right;
+}
+
+.to-do-container{
+    background-color: #fff;
+    margin-bottom: 24px;
+    clear: both;
+    box-shadow: 0 2px 4px rgba(4,46,111,.08);
+    border-radius: 3px;
+}
